@@ -1,0 +1,61 @@
+.navbarprimary{
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    position: fixed;
+    width: 100%;
+    margin-top: -70px;
+  }
+  
+  .logo{
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+  }
+  
+  .account{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(32, 32, 32)
+  }
+  
+  .accountname{
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    padding-right: 10px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .accountimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-right: 10px;
+    background-color: transparent;
+    cursor: pointer;
+  
+  }
+  
+  .disconnect{
+    font-size: 30px;
+    font-weight: 400;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .icon1{
+    background-color: transparent;
+  }
+  
+   .icon1:hover{
+    color: aquamarine;
+    box-shadow: 0 0 30px aqua;
+    border-radius: 50%;
+    background-color: rgba(0, 255, 255, 0.274);
+  }
