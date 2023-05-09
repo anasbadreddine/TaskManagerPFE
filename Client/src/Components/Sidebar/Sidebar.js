@@ -73,8 +73,8 @@ const Sidebar = (props) => {
             alt="User picture"/>
         </div>
         <div className="user-info">
-          <span className="user-name">Anas
-            <strong> BADR EDDINE</strong>
+          <span className="user-name">To
+            <strong>Admin</strong>
           </span>
           <span className="user-role">Administrator</span>
           <span className="user-status">
