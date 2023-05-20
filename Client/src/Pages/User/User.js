@@ -4,7 +4,31 @@ import { Link } from 'react-router-dom'
 
 const User = () => {
   return (
-    <div>show users</div>
+    <><h2 className='shhead'>show users</h2>
+    <table className='shtable'>
+    <tr>
+      <th>First Name</th>
+      <th>Last name</th>
+      <th>Username</th>
+      <th>Password</th>
+      <th>Group</th>
+    </tr>
+    <tr>
+      <td>John Doe</td>
+      <td>John</td>
+      <td>johndoe</td>
+      <td>password123</td>
+      <td>Group A</td>
+    </tr>
+    <tr>
+      <td>Jane Smith</td>
+      <td>Jane</td>
+      <td>janesmith</td>
+      <td>123456</td>
+      <td>Group B</td>
+    </tr>
+  </table>
+    </>
   )
 }
 

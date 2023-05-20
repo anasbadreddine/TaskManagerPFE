@@ -98,3 +98,24 @@ form h3{
   }
 
   /*show users css*/
+  .shhead{
+    color: white;
+    margin-left: 10px;
+  }
+
+  .shtable {
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 10px;
+    color: white;
+    }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #686868;
+  }
