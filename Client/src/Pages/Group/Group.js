@@ -2,9 +2,103 @@ import React from 'react'
 import './Group.css'
 import { Link } from 'react-router-dom'
 
+
 const Group = () => {
   return (
-    <div>All Groups</div>
+    <>
+    <h2 className='sghead'>All Groups</h2>
+
+    {/*button to add groups*/}
+
+    <div className='sg_container'>
+    <div className='sg_card'>
+      <img src='' alt='' className='group_img' />
+      <h4 className='sg_title'>Groupe1</h4>
+      <p className='sg_description'>Le Lorem Ipsum est simplement du faux texte 
+      employé dans la composition et la mise en page avant impression.
+       Le Lorem Ipsum est le faux texte standard de...</p>
+       <ul className='sg_ul'>
+        <h6 className='sg_team'>Team Members</h6>
+        <li>anas</li>
+        <li>mhmd</li>
+        <li>fachi</li>
+       </ul>
+    </div>
+
+
+    <div className='sg_card'>
+      <img src='' alt='' className='group_img' />
+      <h4 className='sg_title'>Groupe1</h4>
+      <p className='sg_description'>Le Lorem Ipsum est simplement du faux texte 
+      employé dans la composition et la mise en page avant impression.
+       Le Lorem Ipsum est le faux texte standard de...</p>
+       <ul className='sg_ul'>
+        <h6 className='sg_team'>Team Members</h6>
+        <li>anas</li>
+        <li>mhmd</li>
+        <li>fachi</li>
+       </ul>
+    </div>
+
+
+
+    
+    <div className='sg_card'>
+      <img src='' alt='' className='group_img' />
+      <h4 className='sg_title'>Groupe1</h4>
+      <p className='sg_description'>Le Lorem Ipsum est simplement du faux texte 
+      employé dans la composition et la mise en page avant impression.
+       Le Lorem Ipsum est le faux texte standard de...</p>
+       <ul className='sg_ul'>
+        <h6 className='sg_team'>Team Members</h6>
+        <li>anas</li>
+        <li>mhmd</li>
+        <li>fachi</li>
+       </ul>
+    </div>
+    <div className='sg_card'>
+      <img src='' alt='' className='group_img' />
+      <h4 className='sg_title'>Groupe1</h4>
+      <p className='sg_description'>Le Lorem Ipsum est simplement du faux texte 
+      employé dans la composition et la mise en page avant impression.
+       Le Lorem Ipsum est le faux texte standard de...</p>
+       <ul className='sg_ul'>
+        <h6 className='sg_team'>Team Members</h6>
+        <li>anas</li>
+        <li>mhmd</li>
+        <li>fachi</li>
+       </ul>
+    </div>
+    <div className='sg_card'>
+      <img src='' alt='' className='group_img' />
+      <h4 className='sg_title'>Groupe1</h4>
+      <p className='sg_description'>Le Lorem Ipsum est simplement du faux texte 
+      employé dans la composition et la mise en page avant impression.
+       Le Lorem Ipsum est le faux texte standard de...</p>
+       <ul className='sg_ul'>
+        <h6 className='sg_team'>Team Members</h6>
+        <li>anas</li>
+        <li>mhmd</li>
+        <li>fachi</li>
+       </ul>
+    </div>
+    <div className='sg_card'>
+      <img src='' alt='' className='group_img' />
+      <h4 className='sg_title'>Groupe1</h4>
+      <p className='sg_description'>Le Lorem Ipsum est simplement du faux texte 
+      employé dans la composition et la mise en page avant impression.
+       Le Lorem Ipsum est le faux texte standard de...</p>
+       <ul className='sg_ul'>
+        <h6 className='sg_team'>Team Members</h6>
+        <li>anas</li>
+        <li>mhmd</li>
+        <li>fachi</li>
+       </ul>
+    </div>
+
+
+    </div>
+    </>
   )
 }
 

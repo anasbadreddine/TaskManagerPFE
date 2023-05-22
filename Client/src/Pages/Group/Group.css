@@ -91,3 +91,52 @@ form h3{
   }
 
   /*show groups css*/
+
+  .sghead{
+    color: white;
+    margin-left: 10px;
+  }
+
+  .sg_container{
+    display: flex;
+    flex-direction:row;
+    column-gap: 10px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .sg_card{
+    color: rgb(0, 0, 0);
+    background-color: #c7c7c7;
+    width: 300px;
+    height: 400px;
+    border: solid rgb(0, 0, 0) 3px;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    padding: 10px;
+    text-align: center;
+    }
+
+  .group_img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #0e4bf1;
+  }
+
+  .sg_title{
+    font-weight: 500;
+  }
+
+  .sg_description{
+    width: 100%;
+    margin: auto;
+    padding: 10px 20px;
+  }
+  .sg_ul li{
+    list-style-type: none;
+  }
+
+  .sg_team{
+    font-weight: 900;
+  }
