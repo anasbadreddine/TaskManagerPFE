@@ -16,7 +16,6 @@ const Header = () => {
       <img src={profilepic} alt="" className="accountimg"/>
       <a href="/"> <FontAwesomeIcon icon={faSignOutAlt} color='white' className='icon1 disconnect'/> </a>
     </div>
-    
   </div>
   )
 }
