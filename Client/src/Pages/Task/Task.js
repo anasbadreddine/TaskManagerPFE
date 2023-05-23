@@ -4,7 +4,16 @@ import { Link } from 'react-router-dom'
 
 const Task = () => {
   return (
-    <div>show all tasks</div>
+    <>
+    <div className='container_tsk'>
+      <h2>show all tasks</h2>
+      <div className='showtasks'>
+        <div className='singletask'>task one</div>
+        <div className='singletask'>task two</div>
+      </div>
+    </div>
+    
+    </>
   )
 }
 
